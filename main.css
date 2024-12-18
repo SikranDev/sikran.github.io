@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(90deg, #1E3A8A, #EF4444);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+#orderForm {
+    max-width: 600px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #1E3A8A, #EF4444);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#orderForm h2 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#orderForm p {
+    text-align: center;
+    font-size: 14px;
+    color: #ffdcdc;
+}
+#orderForm h3 {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF6F00;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    background-color: #E65C00;
+    transform: translateY(-2px);
+}
+button:active {
+    background-color: #CC4F00;
+    transform: translateY(0);
+}
+.form-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#orderForm {
+    animation: fadeIn 0.8s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
